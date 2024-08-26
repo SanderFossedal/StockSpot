@@ -10,11 +10,12 @@ namespace api.Models
     {
         public int Id { get; set; }
 
+        
         public string Symbol { get; set; } = string.Empty;
 
-        public string CompanyName { get; set; } = string.Empty;
+        public string CompanyName { get; set; } = string.Empty; 
 
-        [Column(TypeName = "decimal(18, 2)")] //Forces the database to use decimal(18, 2) for this property
+        [Column(TypeName = "decimal(18, 2)")] //Forces the database to use decimal(18, 2) for this property 
         public decimal Purchase { get; set; }
 
         [Column(TypeName = "decimal(18, 2)")] //Forces the database to use decimal(18, 2) for this property
