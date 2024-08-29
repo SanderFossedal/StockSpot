@@ -137,3 +137,7 @@ D:\VsCode Projects\ASP.Net-Core-Stock-Web-App\api\obj\Debug\net8.0\refint\api.dl
 D:\VsCode Projects\ASP.Net-Core-Stock-Web-App\api\obj\Debug\net8.0\api.pdb
 D:\VsCode Projects\ASP.Net-Core-Stock-Web-App\api\obj\Debug\net8.0\api.genruntimeconfig.cache
 D:\VsCode Projects\ASP.Net-Core-Stock-Web-App\api\obj\Debug\net8.0\ref\api.dll
+D:\VsCode Projects\ASP.Net-Core-Stock-Web-App\api\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\VsCode Projects\ASP.Net-Core-Stock-Web-App\api\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+D:\VsCode Projects\ASP.Net-Core-Stock-Web-App\api\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\VsCode Projects\ASP.Net-Core-Stock-Web-App\api\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
