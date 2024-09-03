@@ -14,6 +14,8 @@ namespace api.Interfaces
 
         Task<Stock?> GetAsync(int id); //? means that the return type can be null
 
+        Task<Stock?> GetBySymbolAsync(string symbol);
+
         Task<Stock> CreateAsync(Stock stock);
 
         Task<Stock?> UpdateAsync(int id, UpdateStockRequestDto stockDto);

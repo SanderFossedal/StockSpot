@@ -36,7 +36,7 @@ namespace api.Controllers
             }
             
             var stocks = await _stockRepo.GetAllAsync(query); //Gets all stocks from the database
-            var StockDto = stocks.Select(s => s.ToStockDto()); //Selects all stocks from the database and maps them to the StockDto
+            var StockDto = stocks.Select(s => s.ToStockDto()).ToList(); //Selects all stocks from the database and maps them to the StockDto
             return Ok(StockDto); //Returns a 200 status code with the stocks
         }
 
